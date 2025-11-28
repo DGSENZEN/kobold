@@ -19,10 +19,10 @@ A VTT made for newbies and experienced players alike to bring their stories and 
   - Room-based connection management (isolated game sessions)
   - Automatic reconnection handling with state recovery
   - Connection state: connecting, connected, disconnecting, error
-  - Per-room WebSocket instances (Owlbear 2.0 architecture pattern)
+  - Per-room WebSocket instances
 
 #### Data Layer
-- **Document-based Data Model** (Foundry pattern)
+- **Document-based Data Model**
   - Base Document abstract class with CRUD operations
   - Scene documents (maps, grids, lighting config)
   - Actor documents (characters, NPCs, monsters)
